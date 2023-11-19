@@ -142,7 +142,29 @@
       </main>
 
       <footer>
-        <!-- ZADANIE DOMOWE zrobic ladny footer z R i ikonkami -->
+        <form>
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" />
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" />
+          <p>Gender:</p>
+          <input type="radio" id="male" name="gender" />
+          <label for="male">male</label>
+          <input type="radio" id="female" name="gender" />
+          <label for="female">female</label>
+          <p>What are Yours favorite christmas songs?</p>
+          <div class="songs">
+            <input type="checkbox" id="lastwham" name="lastwham" />
+            <label for="lastwham">Last Christmas</label><br />
+            <input type="checkbox" id="alliwant" name="alliwant" />
+            <label for="lastwham">All I want for Christmas</label><br />
+            <input type="checkbox" id="letitsnow" name="letitsnow" />
+            <label for="lastwham">Let it snow</label><br />
+            <input type="checkbox" id="feliz" name="feliz" />
+            <label for="lastwham">Feliz Navidad</label>
+          </div>
+          <input class="submit" type="submit" value="Submit" />
+        </form>
       </footer>
     </div>
   </body>
