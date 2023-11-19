@@ -80,3 +80,42 @@ body {
     border: 5px dashed blue;
   }
   
+  footer ul {
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    padding: 0rem;
+  }
+  
+  footer ul li {
+    padding: 0 2rem 0 2rem;
+  }
+  
+  footer ul li a i{
+    color: rgb(197, 48, 48);
+  }
+
+  audio::-webkit-media-controls-panel{
+    background-color: rgb(162, 44, 44);
+  }
+
+  audio::-webkit-media-controls-mute-button {
+
+    background-color: rgb(56, 56, 222);
+    border-radius: 50%;
+  }
+  
+  
+
+
+  audio::-webkit-media-controls-play-button, 
+  audio::-webkit-media-controls-timeline-container, 
+  audio::-webkit-media-controls-current-time-display, 
+  audio::-webkit-media-controls-time-remaining-display, 
+  audio::-webkit-media-controls-timeline, 
+  audio::-webkit-media-controls-volume-slider-container, 
+  audio::-webkit-media-controls-volume-slider {
+    color: blue;
+    font-size: larger;
+  }
