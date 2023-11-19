@@ -2,7 +2,11 @@ body {
     margin: 0;
     padding: 0;
     font-size: 16px;
-    /* ZADANIE DOMOWE dodaj font zewnetrzny z google */
+    background-image: url(xmas.jpg);
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px;
   }
   
   img {
@@ -19,6 +23,7 @@ body {
   
   /* HEADER */
   header {
+    background-color: #ffffc2;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -41,8 +46,9 @@ body {
   }
   
   nav ul li a:hover {
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: #e8003e;
+    border-radius: 2rem;
   }
   
   .slider img {
@@ -56,7 +62,7 @@ body {
   
   article {
     width: 70%;
-    background-color: rgb(107, 175, 235);
+    background-color: #97dbff;
     padding: 20px;
   }
   
@@ -66,7 +72,7 @@ body {
   
   aside {
     width: 30%;
-    background-color: rgb(138, 228, 228);
+    background-color: #e8003e;
     padding: 30px;
   }
   
@@ -79,6 +85,7 @@ body {
     margin: 0 5px 5px 0;
     border: 5px dashed blue;
   }
+
   
   footer ul {
     align-items: center;
@@ -93,11 +100,11 @@ body {
   }
   
   footer ul li a i{
-    color: rgb(197, 48, 48);
+    color: rgb(209, 100, 219);
   }
 
   audio::-webkit-media-controls-panel{
-    background-color: rgb(162, 44, 44);
+    background-color: #ffa15b;
   }
 
   audio::-webkit-media-controls-mute-button {
@@ -106,16 +113,14 @@ body {
     border-radius: 50%;
   }
   
+  audio::-webkit-media-controls-play-button {
+    background-color: rgb(68, 163, 195);
+    border-radius: 50%;
+  }
   
-
-
-  audio::-webkit-media-controls-play-button, 
   audio::-webkit-media-controls-timeline-container, 
   audio::-webkit-media-controls-current-time-display, 
   audio::-webkit-media-controls-time-remaining-display, 
   audio::-webkit-media-controls-timeline, 
   audio::-webkit-media-controls-volume-slider-container, 
-  audio::-webkit-media-controls-volume-slider {
-    color: blue;
-    font-size: larger;
-  }
+  audio::-webkit-media-controls-volume-slider
