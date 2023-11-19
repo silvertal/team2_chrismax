@@ -109,7 +109,7 @@ form {
   margin-left: auto;
   margin-right: auto;
 }
-=======
+
     margin: 0;
     padding: 0;
     font-size: 16px;
@@ -120,6 +120,11 @@ form {
     padding: 15px;
   }
   
+  .sitename {
+    font-family: 'Fredericka the Great',
+serif;
+font-size: 55px;
+  }
   img {
       max-width: 100%;
       height: auto;
@@ -134,8 +139,15 @@ form {
   
   /* HEADER */
   header {
+
+    font-family: 'Glass Antiqua',
+cursive;
+    padding: 25px;
+    margin: 2px;
+
     background-color: #ffffc2;
     padding: 20px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -143,10 +155,12 @@ form {
   
   nav ul {
     list-style-type: none;
+    
   }
   
   nav ul li {
     display: inline-block;
+    
   }
   
   nav ul li a {
@@ -175,6 +189,8 @@ form {
     width: 70%;
     background-color: #97dbff;
     padding: 20px;
+    font-family: 'Glass Antiqua',
+cursive;
   }
   
   article img {
@@ -189,6 +205,8 @@ form {
   
   .widget {
     margin-bottom: 40px;
+    font-family: 'Glass Antiqua',
+cursive;
   }
   
   .widget img {
