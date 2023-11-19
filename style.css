@@ -1,82 +1,86 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    /* ZADANIE DOMOWE dodaj font zewnetrzny z google */
-  }
-  
-  img {
-      max-width: 100%;
-      height: auto;
-  }
-  
-  #container {
-    width: 1000px;
-    margin: 0 auto;
-    border: 2px dotted darkblue;
-    border-radius: 10px;
-  }
-  
-  /* HEADER */
-  header {
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  nav ul {
-    list-style-type: none;
-  }
-  
-  nav ul li {
-    display: inline-block;
-  }
-  
-  nav ul li a {
-    font-size: 18px;
-    color: black;
-    padding: 10px 15px;
-    text-decoration: none;
-  }
-  
-  nav ul li a:hover {
-    color: white;
-    background-color: black;
-  }
-  
-  .slider img {
-    display: block;
-  }
-  
-  main {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  article {
-    width: 70%;
-    background-color: rgb(107, 175, 235);
-    padding: 20px;
-  }
-  
-  article img {
-    border: 3px solid black;
-  }
-  
-  aside {
-    width: 30%;
-    background-color: rgb(138, 228, 228);
-    padding: 30px;
-  }
-  
-  .widget {
-    margin-bottom: 40px;
-  }
-  
-  .widget img {
-    float: left;
-    margin: 0 5px 5px 0;
-    border: 5px dashed blue;
-  }
-  
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  /* ZADANIE DOMOWE dodaj font zewnetrzny z google */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#container {
+  width: 1000px;
+  margin: 0 auto;
+  border: 2px dotted darkblue;
+  border-radius: 10px;
+}
+
+/* HEADER */
+header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  font-size: 18px;
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: white;
+  background-color: black;
+}
+
+.slider img {
+  display: block;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  width: 70%;
+  background-color: rgb(107, 175, 235);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+article img {
+  border: 3px solid black;
+}
+
+aside {
+  width: 30%;
+  background-color: rgb(138, 228, 228);
+  padding: 30px;
+}
+
+.widget {
+  margin-bottom: 40px;
+}
+
+.widget img {
+  float: left;
+  margin: 0 5px 5px 0;
+  border: 5px dashed blue;
+}
